@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stepic_work</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Общая информация</legend>
+
+      <div class="fio">
+        <label for="surname">Фамилия</label>
+        <input type="text" id="surname" name="general_information" placeholder="Иванов">
+      </div>
+
+      <div class="fio">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="general_information" placeholder="Иван">
+      </div>
+
+      <div class="fio">
+        <label for="patronymic">Отчество</label>
+        <input type="text" id="patronymic" name="general_information" placeholder="Иванович">
+      </div>
+
+      <div class="fio">
+        <label for="email">email</label>
+        <input type="email" id="email" name="general_information" placeholder="mail@mail.ru">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Пол</legend>
+      <div class="sex">
+        <input id="M" name="sex" type="radio" value="male">
+        <label for="M">М</label>
+
+        <input id="F" name="sex" type="radio" value="female">
+        <label for="F">Ж</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Хобби</legend>
+      <div class="hobby">
+        <input type="checkbox" id="drawing" name="hobby" value="drawing">
+        <label for="drawing">Рисование</label>
+
+        <input type="checkbox" id="reading " name="hobby" value="reading ">
+        <label for="reading ">Чтение</label>
+
+        <input type="checkbox" id="knitting " name="hobby" value="knitting ">
+        <label for="knitting ">Вязание</label>
+
+        <input type="checkbox" id="cooking" name="hobby" value="cooking">
+        <label for="cooking">Кулинария</label>
+      </div>
+    </fieldset>
+
+    <input type="submit">
+    <input type="reset" value="Очистить">
+  </form>
+</body>
+
+</html> 
