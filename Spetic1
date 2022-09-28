@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+
+        <legend>Общая информация</legend>
+            <label for="surname">Фамилия</label>
+            <input id="surname" type="text" placeholder="Иванов" name="surname">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Иван" name="name">
+            <label for="lastname">Отчество</label>
+            <input id="lastname" type="text" placeholder="Иванович" name="lastname">
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="mail@mail.ru" name="email">
+        </fieldset>
+
+        <fieldset> 
+        <legend>Пол</legend>
+            <input id="male" type="radio" name="sex">
+            <label for="male">М</label>
+            <input id="female" type="radio" name="sex">
+            <label for="female">Ж</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Хобби</legend>
+            <input id="paint" type="checkbox" name="hobby">
+            <label for="paint">Рисование</label>
+            <input id="read" type="checkbox" name="hobby">
+            <label for="read">Чтение</label>
+            <input id="vjas" type="checkbox" name="hobby">
+            <label for="vjas">Вязание</label>
+            <input id="cook" type="checkbox" name="hobby">
+            <label for="cook">Кулинария</label>
+        </fieldset>
+
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</body>
+</html>
